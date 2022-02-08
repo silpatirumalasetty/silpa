@@ -5,3 +5,89 @@
 width: 100%;
 height: 100%;
 }
+.first-container .left{
+    padding-left:5%;
+}
+
+.first-container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    width: 100%;
+    height: 400px;
+    background-color: #F2F2F2;
+}
+
+.first-container .left{
+    width: 50%;
+}
+.first-container .right iframe{
+    width: 130%;
+    height: 85%;
+
+}
+.button1 button{
+    width:20%;
+    height:35px;
+    background-color:black;
+    border-radius:5px;
+}
+
+
+
+.first-container .right{
+    float:right;
+    padding-top:50px;
+    padding-left: 8%;
+
+}
+.buttonx{
+    color:white;
+}
+.header{
+    padding-top:10%;
+}
+
+
+
+.below-part{
+    border: 2px solid black;
+    width: 100%;
+    height: 500px;
+    margin-top: 10px;
+}
+
+
+.second-container .header{
+    text-align:center;
+    padding-top:2%;
+}
+.second-container .paragraph{
+    text-align:center;
+
+    margin-left:20%;
+    margin-right:20%;
+
+}
+.btn button{
+    width:10%;
+    height:35px;
+    background-color:black;
+    border-radius:5px;
+}
+.second-container .button2{
+    color:white;
+}
+.btn{
+    text-align:center;
+}
+.third-container .right {
+    text-align:center;
+    padding-top:15px;
+
+
+}
+.third-container .right iframe{
+    width:35%;
+    height:260px;
+} 
